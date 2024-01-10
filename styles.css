@@ -1,0 +1,58 @@
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+button {
+  padding: 15px;
+  background-color: #01DACC;
+  border-width: 0px;
+  border-radius: 10px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: medium;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 8px 8px 0px;
+  border-radius: 10px;
+  border-width: 3px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: medium;
+}
+
+img {
+  width: 40vw;
+  margin: 20px 0px;
+}
+
+input[type=checkbox] {
+  padding: 12px 20px;
+  margin: 8px 8px 0px 0px;
+  border-radius: 10px;
+  border-width: 3px;
+  height: 25px;
+  width: 25px
+}
+
+#checklist {
+  position: fixed;
+  top: 10vh;
+  right: 0;
+  width: 32vh;
+  height: fit-content;
+  padding: 1vw 2vw 3vw 2vw;
+  background-color: #01DACC;
+  border-radius: 20px 0px 0px 20px;
+  vertical-align: middle;
+}
+
+.excercise {
+  padding: 1vw 2vw;
+}
+
+#answer-box {
+  margin: 10px 0px;
+  padding: 0px 15px;
+  border: 3px solid #01DACC;
+  border-radius: 10px;
+}
