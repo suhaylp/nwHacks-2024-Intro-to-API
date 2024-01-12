@@ -10,7 +10,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="styles.css" />
-		<script src="index.js"></script>
+		<script type="module" src="index.js"></script>
 		<title>nwHacks 2024 Intro to API</title>
 	</head>
 	<body>
@@ -47,12 +47,15 @@
 				Clicking the below button should show the list of various models
 				available in the API.
 			</p>
-			<button onclick="showModels()">Show Models</button>
-			<ul>
+			<!-- <button onclick="showModels()">Show Models</button> -->
+			<button id="showModelsButton">Show Models</button>
+			<!-- <ul>
 				<li>Model 1</li>
 				<li>Model 2</li>
 				<li>Model 3</li>
-			</ul>
+			</ul> -->
+			<ul id="modelList"></ul>
+
 		</div>
 		<div class="excercise" id="ex-2">
 			<h1>POST IMAGE</h1>
@@ -67,7 +70,8 @@
 				spellcheck="true"
 				placeholder="Write your promt here!"
 			/>
-			<button onclick="generateImage()">Generate Image</button>
+			<!-- <button onclick="generateImage()">Generate Image</button> -->
+			<button id="generateImageButton">Generate Image</button>
 			<img
 				src="https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/406268590_911061777170521_8874038307475099163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=SJ8ZKtEXzxwAX_bMrSh&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfBnwAAe5WvfB4cTf8Qzu6nJgs2DMBdRP0--qUWPcAX2lQ&oe=65A23F64"
 			/>
@@ -80,12 +84,13 @@
 			</p>
 			<input
 				type="text"
-				id="image-prompt"
+				id="text-prompt"
 				size="100"
 				spellcheck="true"
 				placeholder="Write your question here!"
 			/>
-			<button onclick="generateResponse()">Generate Response</button>
+			<!-- <button onclick="generateResponse()">Generate Response</button> -->
+			<button id="generateResponseButton">Generate Response</button>
 			<div id="answer-box">
 				<p id="generated-answer">Response here!</p>
 			</div>
