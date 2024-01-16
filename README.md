@@ -11,6 +11,6 @@
 
 4. Create an [Open AI API account](https://platform.openai.com/overview)
 - Go to API keys and create a new secret key
-- Make sure you save the secret key
+- Make sure you save the secret key in the `secrets.json` file, replacing the value of `apiKey`
 
 you should be good to go!
