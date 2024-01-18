@@ -67,3 +67,8 @@ export async function moderateChat(inputText) {
 
     // TODO: Fill in the rest of the function
 }
+
+function checkModeration(responseText) {
+    const inputBox = document.getElementById('moderation-text-prompt');
+    inputBox.style.backgroundColor = responseText ? 'red' : 'green';
+}

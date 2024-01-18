@@ -24,20 +24,20 @@
 					>GET MODELS</a
 				></label
 			><br />
-			<input type="checkbox" name="image" value="image" />
-			<label for="image">
-				<a
-					href="https://platform.openai.com/docs/api-reference/moderations"
-					target="_blank"
-					>POST MODERATION</a
-				></label
-			><br />
 			<input type="checkbox" name="chat" value="chat" />
 			<label for="chat">
 				<a
 					href="https://platform.openai.com/docs/api-reference/chat"
 					target="_blank"
 					>POST CHAT</a
+				></label
+			><br />
+			<input type="checkbox" name="moderation" value="moderation" />
+			<label for="moderation">
+				<a
+					href="https://platform.openai.com/docs/api-reference/moderations"
+					target="_blank"
+					>POST MODERATION</a
 				></label
 			><br />
 		</div>
@@ -76,7 +76,7 @@
 			</p>
 			<input
 				type="text"
-				id="text-prompt"
+				id="moderation-text-prompt"
 				size="100"
 				spellcheck="true"
 				placeholder="Write your sentence here!"
