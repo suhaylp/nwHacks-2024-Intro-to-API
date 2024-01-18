@@ -8,10 +8,22 @@ export async function getModels() {
 	const secrets = await loadSecrets();
 	const apiKey = await secrets.apiKey;
 
-	// Fill this in yourself!
-	// TODO: Fill in the fetch call
+    // Fill this in yourself!
+    // TODO: Fill in the fetch call
 
-	// TODO: Fill in the rest of the function
+    const response = await fetch("ADD URL", {
+        method: "ADD METHOD",
+        headers: {
+            "Authorization": `Bearer ${apiKey}`,
+            "Content-Type": "application/json"
+        }
+    });
+
+    // TODO: Fill in the rest of the function
+
+    const models = await response.json();
+    // Update the webpage with the models
+    updateModelList("ADD PARAMETER");
 }
 
 function updateModelList(models) {
@@ -43,11 +55,15 @@ function updateAnswerBox(responseText) {
 	answerBox.textContent = responseText;
 }
 
-// Endpoint 3 (POST MODERATION)
+// Endpoint 3  (POST MODERATION)
 
-export async function create_FILL_THIS_IN() {
-	const secrets = await loadSecrets();
-	const apiKey = await secrets.apiKey;
+export async function moderateChat(inputText) {
+    const secrets = await loadSecrets();
+    const apiKey = await secrets.apiKey;
 
-	// Fill this in yourself!
+    // Fill this in yourself!
+    // TODO: Fill in the fetch call
+
+
+    // TODO: Fill in the rest of the function
 }

@@ -5,7 +5,7 @@
 # Setup
 
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repo
-    - Open terminal, and goto the directory (folder) that you want to clone this repo
+    - Open terminal, and `cd` into (go to) the directory (folder) that you want to clone this repo
     - Run `git clone https://github.com/michelleykim/nwHacks-2024-Intro-to-API.git`
     - You should see another directory appear, named something like: nwHacks-2024-Intro-to-API
 
